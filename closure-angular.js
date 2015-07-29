@@ -1,18 +1,9 @@
-* Introduction
-* Angular application
-#+BEGIN_SRC js :tangle closure-angular.js
 var app = angular.module('closureAngular', []);
 
-<<filters>>
 
-<<services>>
 
-<<directives>>
-#+END_SRC
 
-** Directives
-*** clickSelectsOne
-#+BEGIN_SRC js :noweb-ref directives
+
 app.directive('clickSelectsOne', clickSelectsOne);
 
 function clickSelectsOne() {
@@ -47,10 +38,7 @@ function clickSelectsOne() {
 
     }
 }
-#+END_SRC
 
-**** clickSelectable
-#+BEGIN_SRC js :noweb-ref directives
 app.directive('clickSelectable', clickSelectable);
 
 function clickSelectable() {
@@ -68,5 +56,3 @@ function clickSelectable() {
 
     return directive;
 }
-#+END_SRC
-

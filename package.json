@@ -1,0 +1,24 @@
+{
+  "name": "closure-angular",
+  "version": "1.0.0",
+  "description": "Miscellaneous angular code for reuse in Closure Ventures projects",
+  "main": "closure-angular.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pabloclosure/closure-angular.git"
+  },
+  "keywords": [
+    "closure",
+    "ventures",
+    "angular"
+  ],
+  "author": "Pablo Muñoz Haro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloclosure/closure-angular/issues"
+  },
+  "homepage": "https://github.com/pabloclosure/closure-angular"
+}
